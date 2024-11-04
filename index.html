@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <div class="container-calculator-a">
+        <div id="result" class="result"></div>
+        <div class="value-holder">
+            <div class="value-holder-a">
+                <button type="button" value="clear" data-key="Enter" class="btn btn-light btn-1">AC</button>
+                <button type="button" value="()" data-key="±" class="btn btn-light btn-1">+/-</button>
+                <button type="button" value="%" data-key="%" class="btn btn-light btn-1">%</button>
+                <button type="button" value="/" data-key="/" class="btn btn-warning">÷</button>
+            </div>
+            <div class="value-holder-b">
+                <button type="button" value="7" data-key="7" class="btn btn-dark">7</button>
+                <button type="button" value="8" data-key="8" class="btn btn-dark">8</button>
+                <button type="button" value="9" data-key="9" class="btn btn-dark">9</button>
+                <button type="button" value="*" data-key="*" class="btn btn-warning">×</button>
+            </div>
+            <div class="value-holder-c">
+                <button type="button" value="4" data-key="4" class="btn btn-dark">4</button>
+                <button type="button" value="5" data-key="5" class="btn btn-dark">5</button>
+                <button type="button" value="6" data-key="6" class="btn btn-dark">6</button>
+                <button type="button" value="-" data-key="-" class="btn btn-warning">-</button>
+            </div>
+            <div class="value-holder-d">
+                <button type="button" value="1" data-key="1" class="btn btn-dark">1</button>
+                <button type="button" value="2" data-key="2" class="btn btn-dark">2</button>
+                <button type="button" value="3" data-key="3" class="btn btn-dark">3</button>
+                <button type="button" value="+" data-key="+" class="btn btn-warning">+</button>
+            </div>
+            <div class="value-holder-e">
+                <button type="button" value="0" data-key="0" class="btn btn-dark btn-0">0</button>
+                <button type="button" value="." data-key="." class="btn btn-dark">.</button>
+                <button type="button" value="=" data-key="=" class="btn btn-warning">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
